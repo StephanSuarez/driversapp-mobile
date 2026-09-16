@@ -32,6 +32,11 @@ flutter run
 Para push notifications agrega tu propia configuración de Firebase (no está en el repo):
 `android/app/google-services.json` y `ios/Runner/GoogleService-Info.plist`.
 
+## Equipo
+
+- [@StephanSuarez](https://github.com/StephanSuarez)
+- [@jhonatandgomez](https://github.com/jhonatandgomez)
+
 ## Créditos
 
 Modelo 3D del taxi: ["Taxi 2"](https://sketchfab.com/3d-models/taxi-2-0b5310fbf2c14b3e807c63f2ee1ca7bf) de [solid3DDD](https://sketchfab.com/solid3ddd), con licencia [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
