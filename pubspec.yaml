@@ -1,0 +1,64 @@
+name: driversapp
+description: Aplicación de taxi DriversApp.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos
+  cupertino_icons: ^1.0.6
+
+  # UI & Inputs
+  pinput: ^4.0.0
+  slide_to_act: ^2.0.2 
+  intl: ^0.19.0  # ✅ AGREGADO: Necesario para el formato de hora (DateFormat)
+
+  # Manejo de Imágenes y Archivos
+  image_picker: ^1.2.1
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # ML KIT
+  google_mlkit_image_labeling: ^0.14.1
+  google_mlkit_face_detection: ^0.13.1
+  google_mlkit_text_recognition: ^0.15.0
+  
+  # MAPAS Y GPS
+  latlong2: ^0.9.1
+  geolocator: ^13.0.0
+  flutter_polyline_points: ^3.1.0
+  
+  # RED, ENLACES Y ALMACENAMIENTO
+  http: ^1.2.1
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.5.1
+
+  # SONIDO / TEXT-TO-SPEECH
+  flutter_tts: ^4.2.5
+  web_socket_channel: ^3.0.3
+  mapbox_maps_flutter: ^2.4.0
+
+  # CONFIGURACIÓN / ENV
+  flutter_dotenv: ^5.1.0
+  firebase_core: ^4.7.0
+  firebase_messaging: ^16.2.0
+  flutter_local_notifications: ^20.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/imagenes/
+    - assets/modelos/carro.glb
+    - .env

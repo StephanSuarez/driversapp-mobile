@@ -1,0 +1,30 @@
+# --- COPIA DESDE AQUÍ ---
+
+# Archivos pesados de compilación (CRÍTICO)
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Archivos basura del sistema y IDE
+.metadata
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Archivos temporales de Android (el error que tienes)
+**/kotlin-compiler-*
+**/.gradle/
+.externalNativeBuild/
+
+# Archivos basura de iOS
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/**/*.xcworkspace
+ios/**/*.xcuserdatad
+ios/**/*.lock
+ios/Podfile.lock
+
+# --- FIN DE COPIA ---
